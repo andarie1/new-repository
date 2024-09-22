@@ -1,2 +1,1 @@
-# new-repository
-Home_work12
+Hello new README
