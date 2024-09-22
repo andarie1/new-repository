@@ -1,3 +1,19 @@
+  304  git commit -am "Test README.md"
+  305  exit
+  306  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  307  exit
+  308  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  309  git init
+  310  cd new-repository
+  311  git clone https://github.com/andarie1/new-repository.git
+  312  mkdir gitignore
+  313  git checkout gitignore
+  314  rm gitignore
+  315  rm -p gitignore
+  316  rm -p /gitignore
+  317  rm --help
+  318  rm -d gitignore
+  319  ls -l
   320  cd new-repository
   321  mkdir gitignore
   322  git checkout gitignore
@@ -48,3 +64,7 @@
   367  git push origin main
   368  git history | tail -n 50 > command_historyDZ12.txt 
   369  history | tail -n 50 > command_historyDZ12.txt 
+  370  git add .
+  371  git commit -m "New history file changes"
+  372  git push origin main
+  373  history | tail -n 70 > command_historyDZ12.txt 
