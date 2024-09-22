@@ -1,0 +1,364 @@
+    1  cd ..
+    2  cd
+    3  .ssh
+    4  ssh-keygen
+    5  cat .ssh/id_ed25519
+    6  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de~
+    7  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+    8  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+    9  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   10  history
+   11  cat .ssh/id_ed25519.pub
+   12  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   13  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   14  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   15  history
+   16  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   17  cat .ssh/id_rsa.pub
+   18  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   19  cat .ssh/id_rsa.pub
+   20  exit
+   21  cd ..
+   22  cd
+   23  clear
+   24  .ssh
+   25  cat .ssh/id_ed25519.pub 
+   26  exit
+   27  cd ..
+   28  cd
+   29  clear
+   30  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   31  get update
+   32  update
+   33  clear
+   34  export ANDREW_VARIABLE=290724
+   35  source ~/.bashrc
+   36  mkdir -p /opt/290724/ELENA
+   37  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   38  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   39  exit
+   40  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   41  ls
+   42  touch myfile
+   43  ls
+   44  clear
+   45  scp -i ~/.ssh/id_rsa myfile ec2-user@linux.itcareerhub.de:/tmp
+   46  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   47  scp -i ~/.ssh/id_rsa myfile ec2-user@linux.itcareerhub.de:/tmp file.txt
+   48  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/tmp file.txt
+   49  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   50  pwd
+   51  export MSG='Hi'
+   52  echo $MSG
+   53  set MSG1='World'
+   54  ls -al
+   55  env
+   56  env | grep -w MSG
+   57  env | grep -c MSG
+   58  env | grep -v MSG
+   59  env | grep -l MSG
+   60  env | grep MSG
+   61  echo 'export MSG=Hi' >> ~/.bashrc
+   62  echo 'export MSG=Hi' >> ~/.bashrc
+   63  source ~/.bashrc
+   64  unset MSG
+   65  ls
+   66  pscp -ls
+   67  ls
+   68  pscp
+   69  cat /etc/os-release
+   70  free
+   71  df -h
+   72  free
+   73  free -m
+   74  top
+   75  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   76  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   77  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   78  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   79  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/tmp/file_elena.txt ~/Downloads
+   80  scp -i~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/tmp/file_elena.txt ~/Downloads
+   81  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/tmp/file_elena.txt ~/Downloads
+   82  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   83  exit
+   84  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   85  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   86  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   87  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   88  tar --help
+   89  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   90  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   91  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   92  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   93  exit
+   94  cd
+   95  mkdir 290724
+   96  cd 290724
+   97  echo '# 290724'>> README.md
+   98  ls -l
+   99  git init
+  100  git add .
+  101  git status
+  102  git commit -m "add file README.md"
+  103  git config --global user.email "elena.arhi88@gmail.com"
+  104  git config --global user.name "andarie1"
+  105  git commit -m "add file README.md"
+  106  git branch -M main
+  107  git remote add origin https://github.com/andarie1/290724
+  108  git push -u origin main
+  109  cd /290724
+  110  cd andarie1/290724
+  111  git rev-parse --show-toplevel
+  112  git
+  113  cd 290724
+  114  git rev-parse --show-toplevel
+  115  exit
+  116  cd
+  117  cd git intro
+  118  cd git_intro
+  119  git remote add origin https://github.com/andarie1/git_intro.git
+  120  cd git_intro
+  121  cd git_intro.git
+  122  git init
+  123  git branch -m main
+  124  git remore add origin https://github.com/andarie1/git_intro.git~
+  125  git remote add origin https://github.com/andarie1/git_intro.git~
+  126  git init
+  127  cd git_intro
+  128  cd git_intro.git
+  129  git remote add origin https://github.com/andarie1/git_intro.git
+  130  git branch
+  131  mkdir git_intro
+  132  cd git_intro
+  133  git init
+  134  git branch -m main
+  135  git add C:\Users\49333\OneDrive\Desktop\kittie
+  136  git add kittie.jpg 
+  137  git add kittie.jpg 
+  138  git commit -m "Added kittie img"
+  139  git remote add origin https://github.com/andarie1/git_intro.git
+  140  git push -u origin main
+  141  git branch -m main
+  142  pwd
+  143  cp /c/Users/49333/Downloads/green-river.avif /c/Users/49333/git_intro
+  144  ls -l
+  145  git add
+  146  git add gree-river.avif
+  147  git add green-river.avif
+  148  git commit -m "Added desktop img"
+  149  git push -u origin main
+  150  git status
+  151  exit
+  152  cd
+  153  cd 290724
+  154  git init
+  155  git status
+  156  echo "Hello, just to push this message check on read.me file" > README.md
+  157  git status
+  158  git add 
+  159  git commit -m "Dropped hi to readme file"
+  160  git push origin 
+  161  git push origin https://github.com/andarie1/git_intro.git
+  162  git push origin main
+  163  git status
+  164  git push origin main
+  165  git commit
+  166  git push origin main
+  167  echo "Hello, just to push this message check on read.me file" > README.md
+  168  git status
+  169  git push origin main
+  170  git log
+  171  git commit -m "Hi msg"
+  172  git commit -a
+  173  cd 290724
+  174  nano README.md
+  175  git add README.md
+  176  cd
+  177  cdgit_intro
+  178  cd git_intro
+  179  git init
+  180  git add README.md
+  181  git add README.md
+  182  ls -l
+  183  git status
+  184  nano README.md
+  185  git status
+  186  git add README.md
+  187  git commit -m "Added msg to readme"
+  188  git status
+  189  git push 
+  190  git push origin main
+  191  git status
+  192  nano README.md
+  193  ls -al
+  194  git -r README.md
+  195  git rm README.md 
+  196  git commit -m "README removed"
+  197  git push origin main
+  198  ls -l
+  199  exit
+  200  cd
+  201  cd
+  202  cd /
+  203  cd ~
+  204  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  205  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/290724-ptm/ELENA/myfirstbashscript.sh ~/Downloads
+  206  cd
+  207  git clone https://github.com/andarie1/git-branch.git
+  208  cd git-branch
+  209  git init
+  210  git status
+  211  touch .gitignore.txt
+  212  git commit -m ".gitignore file commited"
+  213  rm .gitignore.txt
+  214  git status
+  215  git push origin gitignore
+  216  git add gitignore
+  217  git checkout -b gitignore
+  218  git add gitignore
+  219  touch .gitignore
+  220  nano .gitignore
+  221  git add .gitignore
+  222  git commit -m "Added .gitignore file"
+  223  git push origin gitignore
+  224  exit
+  225  cat .git/config
+  226  ls
+  227  cat myfile
+  228  nano myfile
+  229  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  230  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  231  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  232  cd git-branch
+  233  git checkout main
+  234  git -M main
+  235  git set -M main
+  236  git branch -M main
+  237  ls -l
+  238  git branch -v
+  239  touch README.md 
+  240  ls -l
+  241  git branch -v
+  242  git add .
+  243  git commit -m "README f add"
+  244  git add
+  245  cd git_intro
+  246  myproject/.git/config
+  247  git_intro/.git/config
+  248  cd git_branch
+  249  cd ..
+  250  cd git_branch
+  251  git branch -d git_intro
+  252  git branch -d 290724
+  253  git push origin --delete git_intro
+  254  cd git_branch
+  255  cd git-branch
+  256  git checkout -b main
+  257  touch README.md
+  258  git status
+  259  git checkout main
+  260  nano README.md
+  261  git add.
+  262  ls -l
+  263  git status
+  264  git add .
+  265  git commit -m "Adding a README file to Main"
+  266  ls -l
+  267  chmod -x README.md
+  268  ls -l
+  269  chmod +x README.md
+  270  ls -l
+  271  git show--pretty=fuller
+  272  git show --pretty=fuller
+  273  git rm -rf .gitignore
+  274  git status
+  275  git commit -m ".gitignore removed"
+  276  git stash pop
+  277  git checkout gitignore
+  278  git branch -f main 74096c7
+  279  git status
+  280  git checkout main
+  281  ls-l
+  282  ls -l
+  283  git checkout gitignore
+  284  ls -l
+  285  git checkout main
+  286  nano .gitignore
+  287  git status
+  288  git add .
+  289  git commit -m ".gitignore added"
+  290  git push origin main
+  291  git checkout gitignore
+  292  git branch -D gitignore
+  293  git branch -d gitignore
+  294  git push origin --delete gitignore
+  295  git branch -v
+  296  git b\checkout main
+  297  git checkout main
+  298  git branch -v
+  299  nano README.MD
+  300  git status
+  301  git -p add
+  302  git -p add README.md
+  303  git status
+  304  git commit -am "Test README.md"
+  305  exit
+  306  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  307  exit
+  308  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  309  git init
+  310  cd new-repository
+  311  git clone https://github.com/andarie1/new-repository.git
+  312  mkdir gitignore
+  313  git checkout gitignore
+  314  rm gitignore
+  315  rm -p gitignore
+  316  rm -p /gitignore
+  317  rm --help
+  318  rm -d gitignore
+  319  ls -l
+  320  cd new-repository
+  321  mkdir gitignore
+  322  git checkout gitignore
+  323  git status
+  324  git add .
+  325  git status
+  326  mkdir gitignore
+  327  ls -l
+  328  git checkout gitignore
+  329  rm -d gitignore
+  330  ls -l
+  331  got branch -b gitignore
+  332  git branch -b gitignore
+  333  git checkout -b gitignore
+  334  nano .gitignore
+  335  ls -l
+  336  git status
+  337  git add .
+  338  git commit -am "New ignore file"
+  339  git push
+  340  git push origin gitignore
+  341  git checkout -b feature
+  342  echo "Hello new README" > README.md
+  343  ls -l
+  344  echo "*.json" > .gitignore
+  345  ls -l
+  346  git status
+  347  git add .
+  348  git commit -am "Added readme & ignore files"
+  349  git push origin feature
+  350  git commit --amend "ammend"
+  351  echo "ammend comment learning to modify comment" >> README.md
+  352  git add .
+  353  git commit --amend "ammend"
+  354  git status
+  355   git commit --amend
+  356  git checkout main
+  357  git checkout feature
+  358  git status
+  359  git commit --amend
+  360  git commit --amend
+  361  git status
+  362  git checkout main
+  363  git merge feature
+  364  history > command_historyDZ12.txt
